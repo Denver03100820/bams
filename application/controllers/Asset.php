@@ -6,6 +6,7 @@ class Asset extends My_Controller {
     {
         parent::__construct();
         $this->data['title_header'] = 'ASSETS AND PROPERTIES';
+        // $this->data['title_header'] = 'ASSETS AND PROPERTIES';
     }
 
     public function index()
