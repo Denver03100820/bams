@@ -1,0 +1,23 @@
+
+SetEnv	DB_USRNAME	root
+SetEnv	DB_PASSKEY
+SetEnv	DB_NAME		bams
+SetEnv	BASE_URL	http://localhost/bams/
+SetEnv	FOLDER_NAME	olca
+
+# Set PHP Time Zone:
+php_value date.timezone 'Asia/Manila'
+
+<IfModule mod_rewrite.c>
+
+#Option +FollowSymlinks
+RewriteEngine On
+#RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteCond $1 !^(index\.php|assets|n_assets|robots\.txt)
+
+RewriteRule ^(.*)$ index.php?/$1 [QSA,L]
+
+</IfModule>

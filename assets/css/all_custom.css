@@ -1,0 +1,186 @@
+body
+{
+ font-size: 13px;
+ background-color: #e4e9f7 !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+#btn-back-to-top
+{
+  position: fixed;
+  bottom: 46px;
+  right: 20px;
+  display: none;
+}
+
+
+i.fa-bars {
+    font-size: 30px;
+    height: 50px;
+    min-width: 78px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.link_name, .profile_name, .card-title, .form-floating>label
+{
+  letter-spacing: 1px;
+}
+
+.btn{
+  border-radius: 0;
+}
+
+.breadcrumb-item a{
+  text-decoration: none;
+}
+
+.form-control, .form-select, .input-group-text, .list-group
+{
+  font-size: 13px;
+  border-radius: 0px;
+
+}
+
+.form-floating>label
+{
+  font-weight: 700;
+  font-size: 13px !important;
+}
+
+.profile_pic>img
+{
+  width: 80%;
+}
+
+footer.my-4
+{
+  margin-bottom: 0px !important;
+}
+
+.card_min618
+{
+  min-height: 618px;
+}
+
+.list-group b{
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.modal-content
+{
+  border: 0 !important;
+}
+.modal-content, .modal-header
+{
+  border-radius: 0px !important;
+}
+
+.modal i.fa-exclamation-triangle, .modal i.fa-check-circle
+{
+  font-size:50px !important;
+}
+
+.print_show
+{
+  display: none;
+}
+
+@media print
+{
+  .page
+  {
+    size: legal;
+    margin:.5in;
+  }
+
+  .print_hide
+  {
+    display: none;
+  } 
+
+  .print_show
+  {
+    display: inline;
+  }
+
+  body,.home-section
+  {
+    background: transparent !important;
+  }
+
+  .container-fluid
+  {
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+
+  p
+  {
+    text-align: justify;
+    font-size: 13pt;
+  }
+
+}
+
+.page-banner
+{
+  background: url('../../assets/images/pio_del_pilar_banner.jpg')no-repeat center top;
+  min-height: 600px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  margin-top: -50px;
+}
+
+
+.dashboard i.fa, .dashboard i.fas, .dashboard i.fab
+{
+ font-size: 50px;
+}
+
+.dashboard small
+{
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.dash-link
+{
+ text-decoration: none;
+}
+
+.dash-link i
+{
+ font-size: 18px !important;
+}
+
+.dash-link:hover
+{
+ text-decoration: none;
+}
+
+.dark-link
+{
+ text-decoration: none;
+}
+
+.dark-link i
+{
+ font-size: 18px !important;
+}
+
+.dark-link:hover
+{
+ text-decoration: none;
+}

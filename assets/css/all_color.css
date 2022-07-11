@@ -1,0 +1,119 @@
+.main 
+{
+  background: #fff;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track
+{
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb
+{
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover
+{
+  background: #555; 
+}
+
+/*
+.sidebar
+{
+    background-color: #dee2e6 !important;
+}*/
+
+.content-wrapper
+{
+    background-color: #f4f6f9;
+}
+
+i.fa-bars {
+    color: #11101d;
+  }
+
+.sidebar{
+  background: #11101d;
+}
+.form-floating>label
+{
+  opacity: inherit !important;
+  color: #11101d !important;
+}
+
+footer
+{
+  background-color: #fff !important;
+}
+
+.btn-custom
+{
+  background: #11101d;
+  color: #fff;
+}
+
+.btn-custom:hover
+{
+  color: yellow;
+}
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #ffffff;
+    background-color: #11101d;
+    border-color: #11101d #11101d #fff;
+}
+
+.nav-link {
+  color: #11101d;
+}
+
+.form-floating>label>b
+{
+  color: red;
+}
+
+.modal-header
+{
+  background: #11101d !important;
+  color: #fff;
+}
+
+.modal-content
+{
+  border-color: #11101d !important;
+}
+
+.bg-ct
+{
+  background: #11101d !important;
+}
+.bg-ct .container-fluid a
+{
+  color: #fff;
+}
+
+.dash-link
+{
+ color: #fff;
+}
+
+.dash-link:hover
+{
+ color: #11101d;
+}
+
+.dark-link
+{
+ color: #11101dc7;
+}
+
+.dark-link:hover
+{
+ color: #11101d;
+}
