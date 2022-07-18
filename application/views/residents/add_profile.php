@@ -1,3 +1,4 @@
+<?php echo form_open_multipart(base_url('residents/save'),"id='frm_resident'") ?>
 <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 		<div class="card">
@@ -27,7 +28,7 @@
 					    		<p class="fw-bold">PROFILE PICTURE</p>
 					    		<img src="<?php echo base_url().'assets/images/profile.png' ?>" class="rounded"  alt="Upload Picture" id="id_view">
 					    		<div class="input-group mb-3">
-								  <input type="file" class="form-control" id="resident_img" >
+								  <input type="file" class="form-control" id="resident_img" name="image">
 								</div>
 					    	</div>
 
@@ -198,8 +199,12 @@
 							</table>
 						</div>
 					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-2">
+						<button type="button" class="btn btn-success btn-sm mt-3" id="btnsave_resident">SAVE</button>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+<?php echo form_close() ?>

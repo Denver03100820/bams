@@ -25,12 +25,10 @@ class Residents extends My_Controller {
         $this->load->view('template', $this->data);
     }
 
-    public function edit()
+    public function save()
     {
-        
-        $this->data['title_page'] = 'Edit Resident Profile';
-        $this->data['content'] = 'residents/add_profile';
-        $this->load->view('template', $this->data);
+        dump($_FILES["image"]);
+        dump($this->input->post());
     }
 
     public function view()
