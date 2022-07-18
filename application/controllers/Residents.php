@@ -20,6 +20,7 @@ class Residents extends My_Controller {
     {
         
         $this->data['title_page'] = 'New Resident Registration';
+        $this->data['javascript'] = 'residents/script';
         $this->data['content'] = 'residents/add_profile';
         $this->load->view('template', $this->data);
     }

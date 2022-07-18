@@ -25,9 +25,9 @@
 						<div class="row">
 					    	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-2 profile_pic text-center">
 					    		<p class="fw-bold">PROFILE PICTURE</p>
-					    		<img src="<?php echo base_url().'assets/images/profile.png' ?>" class="rounded"  alt="Upload Picture">
+					    		<img src="<?php echo base_url().'assets/images/profile.png' ?>" class="rounded"  alt="Upload Picture" id="id_view">
 					    		<div class="input-group mb-3">
-								  <input type="file" class="form-control" id="inputGroupFile01">
+								  <input type="file" class="form-control" id="resident_img" >
 								</div>
 					    	</div>
 
