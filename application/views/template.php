@@ -23,7 +23,7 @@
 
   </head>
 <body>
-  <div class="main">
+  <div class="main print_hide">
     <?php $this->load->view('header'); ?>
   	<?php $this->load->view('sidebar'); ?>
     <section class="home-section">
@@ -40,6 +40,8 @@
   </div>
 <?php $this->load->view('modals/success'); ?>
 <?php $this->load->view('modals/error'); ?>
+<?php $this->load->view('certificate/temp_with_header'); ?>
+
 <!-- loop modal-->
 <?php //$this->load->view('modals/add_street'); ?>
 <?php //$this->load->view('modals/delete_street'); ?>
@@ -55,10 +57,10 @@
 <?php endif ?>
 <button
         type="button"
-        class="btn btn-custom btn-floating btn-lg"
+        class="print_hide btn btn-custom btn-floating btn-lg "
         id="btn-back-to-top"
         >
-  <i class="fas fa-arrow-up"></i>
+  <i class="fas fa-arrow-up print_hide"></i>
 </button>
 
 <?php ! empty($javascript) && $this->load->view($javascript); ?>
