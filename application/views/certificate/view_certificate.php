@@ -98,5 +98,4 @@
 		</div>
 	</div>
 </div>
-<?php $this->load->view('certificate/print_cert'); ?>
 
